@@ -67,11 +67,6 @@ function fillBoard() {
             turn.textContent = `${playerOneName}'s Turn`;
             gameBoard.board = ["" , "" , "" , "" , "" , "" , "" , "" , ""];
             piece.textContent = "";
-            console.log("stop button FALSE Original:" , stopButton);
-            console.log("player X" , playerX.marker);
-            console.log("player O" , playerO.marker);
-            console.log("array" , gameBoard.board);    
-            
         });
     };
 
